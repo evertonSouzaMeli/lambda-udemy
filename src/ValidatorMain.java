@@ -1,6 +1,3 @@
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class ValidatorMain {
     public static void main(String[] args) {
         Validator<String> validatorCep = (value) -> value.matches("[0-9]{5}-[0-9]{3}");
