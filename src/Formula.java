@@ -1,5 +1,5 @@
 @FunctionalInterface
-public interface Formula {
+public interface Formula{
     double value(double a);
 
     default double sqrt(double a){
